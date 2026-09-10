@@ -758,6 +758,13 @@
             .modern-project-grid {
                 grid-template-columns: 1fr;
             }
+            .proj-header-row {
+                flex-direction: column;
+            }
+            .proj-action-link {
+                width: fit-content;
+            }
+
             .modern-contact-flex {
                 grid-template-columns: 1fr;
             }
@@ -1121,6 +1128,116 @@
                     </div>
                 </div>
 
+
+                <!-- NEXUS -->
+                <div class="portfolio-project-card">
+                    <div>
+                        <div class="proj-header-row">
+                            <h3>NEXUS -- Supply Chain Intelligence Command Center</h3>
+                            <a href="https://github.com/BigSmoke4/NEXUS-Supply-Chain-Intelligence-Command-Center" target="_blank" class="proj-action-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                        <div class="tech-tags-container">
+                            <span class="tech-badge-pill">ASP.NET Core MVC</span>
+                            <span class="tech-badge-pill">C#</span>
+                            <span class="tech-badge-pill">PostgreSQL</span>
+                            <span class="tech-badge-pill">Redis</span>
+                            <span class="tech-badge-pill">EF Core</span>
+                            <span class="tech-badge-pill">Docker</span>
+                        </div>
+                        <ul>
+                            <li>Engineered an enterprise supply-chain decision-support platform modeling suppliers, components, factories, warehouses, products, and customers as dependency graphs; implemented BFS/DFS traversal, alternate-path discovery, single-point-of-failure detection, bottleneck analysis, and downstream impact propagation.</li>
+                            <li>Built deterministic day-by-day disruption simulation with inventory depletion, stockout-day, service-level, recovery-time, revenue-at-risk and composite-risk calculations, multi-scenario/what-if analysis, mitigation heuristics, contract retrieval, natural-language scenario parsing, and evidence-first AI specialist orchestration; added RBAC, multi-tenancy, audit logging, SignalR, durable background jobs, OpenTelemetry and Testcontainers.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- VERITAS -->
+                <div class="portfolio-project-card">
+                    <div>
+                        <div class="proj-header-row">
+                            <h3>VERITAS -- Enterprise Identity &amp; Access Governance Platform</h3>
+                            <a href="https://github.com/BigSmoke4/VERITAS" target="_blank" class="proj-action-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                        <div class="tech-tags-container">
+                            <span class="tech-badge-pill">ASP.NET Core</span>
+                            <span class="tech-badge-pill">C#</span>
+                            <span class="tech-badge-pill">PostgreSQL</span>
+                            <span class="tech-badge-pill">Redis</span>
+                            <span class="tech-badge-pill">EF Core</span>
+                            <span class="tech-badge-pill">Identity</span>
+                        </div>
+                        <ul>
+                            <li>Built an enterprise IAM and zero-trust authorization platform supporting RBAC, ABAC, deny-by-default policy evaluation, ALLOW/DENY/REQUIRE-APPROVAL/REQUIRE-MFA outcomes, immutable policy versions, reproducible authorization decisions, risk scoring, privileged access and separation-of-duties controls.</li>
+                            <li>Implemented risk-aware MFA/approval workflows using IP, failed-login, privileged-action, production, after-hours, device-trust and location signals; added JIT/temporary access, access reviews, API-key hashing/rotation/revocation, HMAC-SHA256 webhooks and comprehensive audit trails.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- LOCAL AGENT PLATFORM -->
+                <div class="portfolio-project-card">
+                    <div>
+                        <div class="proj-header-row">
+                            <h3>Local Agent Platform -- Local-First Autonomous Coding Platform</h3>
+                            <a href="https://github.com/BigSmoke4/Local-Agent-Platform" target="_blank" class="proj-action-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                        <div class="tech-tags-container">
+                            <span class="tech-badge-pill">ASP.NET Core</span>
+                            <span class="tech-badge-pill">C#</span>
+                            <span class="tech-badge-pill">PostgreSQL</span>
+                            <span class="tech-badge-pill">EF Core</span>
+                            <span class="tech-badge-pill">Ollama</span>
+                            <span class="tech-badge-pill">Roslyn</span>
+                            <span class="tech-badge-pill">SignalR</span>
+                        </div>
+                        <ul>
+                            <li>Built a local-first autonomous software-engineering agent platform with persistent sessions, model-driven JSON/DAG task planning, dependency validation, fan-out/fan-in execution, retries, iteration/repair budgets, approval gates and verification loops.</li>
+                            <li>Implemented SHA-256 incremental repository indexing, Roslyn symbol extraction, cross-file dependency/reference graphs, context selection and layered short-term/working/long-term memory with semantic, lexical, recency and importance-based retrieval.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ATLAS -->
+                <div class="portfolio-project-card">
+                    <div>
+                        <div class="proj-header-row">
+                            <h3>ATLAS -- Enterprise Intelligent API &amp; Event Platform</h3>
+                            <a href="https://github.com/BigSmoke4/ATLAS-Enterprise-Intelligent-API-Event-Platform" target="_blank" class="proj-action-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                        <div class="tech-tags-container">
+                            <span class="tech-badge-pill">ASP.NET Core</span>
+                            <span class="tech-badge-pill">C#</span>
+                            <span class="tech-badge-pill">PostgreSQL</span>
+                            <span class="tech-badge-pill">Redis</span>
+                            <span class="tech-badge-pill">Kafka</span>
+                            <span class="tech-badge-pill">OpenTelemetry</span>
+                        </div>
+                        <ul>
+                            <li>Engineered a modular enterprise platform combining API management, service registry, traffic routing, Kafka event processing, retries, DLQ/replay, Redis Lua rate limiting, circuit breakers, tenant-aware authorization and operational policy automation.</li>
+                            <li>Implemented OpenTelemetry-based SLO/error-budget analysis, service health probing, incident state management, deployment-regression analysis, audit/security controls and evidence-based AI operations tooling.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RESPONSIVE E-COMMERCE -->
+                <div class="portfolio-project-card">
+                    <div>
+                        <div class="proj-header-row">
+                            <h3>Responsive E-Commerce -- ASP.NET MVC/Razor Web Application</h3>
+                            <a href="https://github.com/BigSmoke4/Responsive-Ecommerce-asp.net-MVC-razor-view" target="_blank" class="proj-action-link"><i class="fa-brands fa-github"></i> Repository</a>
+                        </div>
+                        <div class="tech-tags-container">
+                            <span class="tech-badge-pill">ASP.NET MVC</span>
+                            <span class="tech-badge-pill">C#</span>
+                            <span class="tech-badge-pill">Razor Views</span>
+                            <span class="tech-badge-pill">Entity Framework</span>
+                            <span class="tech-badge-pill">SQL Server</span>
+                        </div>
+                        <ul>
+                            <li>Developed a responsive database-driven e-commerce application using ASP.NET MVC and Razor with separated Controllers, Models, Services and Views, supporting product management and multi-user shopping-cart functionality.</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -1334,31 +1451,80 @@
             }, 800);
         }
 
-        // EmailJS Execution Submission Handler
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
+        // Secure contact submission with EmailJS + mail fallback
+        document.getElementById('contact-form').addEventListener('submit', async function(event) {
             event.preventDefault();
-            
-            const submitBtn = document.querySelector('.premium-submit-btn');
+
+            const form = document.getElementById('contact-form');
+            const submitBtn = form.querySelector('.premium-submit-btn');
+
+            const name = document.getElementById('user_name').value.trim();
+            const email = document.getElementById('user_email').value.trim();
+            const message = document.getElementById('user_message').value.trim();
+
+            if (!name || !email || !message) {
+                alert('Please complete all fields before sending your message.');
+                return;
+            }
+
+            submitBtn.disabled = true;
             submitBtn.textContent = 'Sending...';
 
             const templateParams = {
-                from_name: document.getElementById('user_name').value,
-                from_email: document.getElementById('user_email').value,
-                message: document.getElementById('user_message').value
+                from_name: name,
+                from_email: email,
+                message: message
             };
 
             const SERVICE_ID = 'default_service';
             const TEMPLATE_ID = 'template_8b3b5wh';
 
-            emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams)
-                .then(function() {
-                    alert('Message dispatched securely and successfully!');
-                    document.getElementById('contact-form').reset();
-                    submitBtn.textContent = 'Send Secure Message';
-                }, function(error) {
-                    alert('Failed to send message: ' + JSON.stringify(error));
-                    submitBtn.textContent = 'Send Secure Message';
-                });
+            try {
+                await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams);
+
+                alert('Message dispatched securely and successfully!');
+                form.reset();
+
+            } catch (error) {
+                console.error('EmailJS submission failed:', error);
+
+                /*
+                 * EmailJS can fail when its Gmail OAuth grant expires or is revoked.
+                 * Do not expose the raw Gmail API error to portfolio visitors.
+                 * Fall back to the visitor's configured mail application.
+                 */
+                const subject = encodeURIComponent(
+                    'Portfolio Contact Message from ' + name
+                );
+
+                const body = encodeURIComponent(
+                    'Name: ' + name + '\n' +
+                    'Email: ' + email + '\n\n' +
+                    'Message:\n' + message
+                );
+
+                const mailtoUrl =
+                    'mailto:ahanafmo@gmail.com' +
+                    '?subject=' + subject +
+                    '&body=' + body;
+
+                const useFallback = confirm(
+                    'The secure mail service is temporarily unavailable.\\n\\n' +
+                    'Would you like to open your email application with the message prepared instead?'
+                );
+
+                if (useFallback) {
+                    window.location.href = mailtoUrl;
+                } else {
+                    alert(
+                        'The message could not be sent automatically. ' +
+                        'Please use the Direct Mail option.'
+                    );
+                }
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Secure Message';
+            }
         });
 
         // Continuous White Matrix Background Coding Effect Implementation
